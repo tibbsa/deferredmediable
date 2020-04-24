@@ -1,0 +1,30 @@
+{
+    "name": "tibbsa/deferredmediable",
+    "type": "library",
+    "description": "A trait used to permit Mediable media entities to be attached to a new entity immediately after its creation (once its identifier is known).",
+    "keywords": [
+        "mediable",
+	"media",
+	"laravel",
+	"eloquent"
+    ],
+    "homepage": "https://github.com/tibbsa/deferredmediabletrait",
+    "license": "MIT",
+    "authors": [
+	{
+            "name": "Anthony Tibbs",
+            "email": "anthony@tibbs.ca",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "plank/laravel-mediable": "^4.2.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "TibbsA\\DeferredMediable\\": "src"
+        }
+    },
+}
