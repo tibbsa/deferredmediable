@@ -20,11 +20,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "plank/laravel-mediable": "^4.2.1",
+        "plank/laravel-mediable": "^4.2.1"
     },
     "autoload": {
         "psr-4": {
             "TibbsA\\DeferredMediable\\": "src"
         }
-    },
+    }
 }
